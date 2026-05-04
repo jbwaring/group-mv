@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# uv / venv
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# internal-only paper-comparison tests (not shipped)
+tests/
+.pytest_cache/
+
+# local copy of the arXiv paper (for cross-checking the notebook against text)
+paper/
+
+# figures
+figures/
